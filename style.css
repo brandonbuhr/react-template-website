@@ -26,7 +26,7 @@ a:hover {
 }
 .nav__container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -61,12 +61,13 @@ h2 {
 }
 h1 {
   font-size: 40px;
-  margin-bottom: 32px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 p {
   font-size: 24px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .signup {
   color: white;
@@ -87,19 +88,11 @@ p {
   color: rgb(87, 0, 128);
 }
 
-
-
-
-
 /* HEADER */
-
-
-
-
 
 .header__container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
   padding-top: 96px;
@@ -154,17 +147,7 @@ p {
   font-weight: bold;
 }
 
-
-
-
-
-
-
 /* SERVICES */
-
-
-
-
 
 #services {
   margin-top: 10%;
@@ -174,16 +157,16 @@ p {
 }
 .section__para {
   text-align: center;
-padding-left: 20%;
-padding-right: 20%;
-font-size: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 20px;
 }
 .container {
   padding: 80px 0;
 }
 .row {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 .services {
@@ -193,7 +176,7 @@ font-size: 20px;
 .service {
   display: flex;
   width: calc(100% / 3);
- padding: 40px;
+  padding: 40px;
 }
 .service__description {
   display: flex;
@@ -216,14 +199,12 @@ font-size: 20px;
   text-align: center;
 }
 
-
 /* PROFESSIONALS */
-
 
 .professionals__container {
   display: flex;
   align-items: center;
-height: 50vh;
+  height: 50vh;
 }
 .professionals__description--container {
   width: 50%;
@@ -247,12 +228,7 @@ height: 50vh;
   margin-top: 0;
 }
 
-
-
 /* GET STARTED */
-
-
-
 
 .started__container {
   display: flex;
@@ -268,7 +244,7 @@ height: 50vh;
   flex-direction: column;
   align-items: flex-start;
   margin: 0 auto;
- width: 50%;
+  width: 50%;
 }
 .started__description--list {
   display: flex;
@@ -281,10 +257,11 @@ height: 50vh;
 }
 .started__number {
   opacity: 0.2;
+  font-size: 56px;
 }
 .started__description--para {
   margin: 0;
-  font-size: 16px;
+  font-size: 20px;
   padding: 8px 0;
   line-height: 1.5;
 }
@@ -292,13 +269,7 @@ height: 50vh;
   margin: 0 24px;
 }
 
-
-
-
 /* PRINCIPLES */
-
-
-
 
 .principles__container {
   display: flex;
@@ -307,7 +278,7 @@ height: 50vh;
 .principles__description--container {
   width: 50%;
 }
-.principles__description--features{
+.principles__description--features {
   display: flex;
 }
 .principles__description--para {
@@ -326,4 +297,108 @@ height: 50vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+/* PRICING */
+
+.pricing__upper--text {
+  text-align: center;
+  padding: 0 96px;
+}
+.plans {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px;
+  justify-content: center;
+}
+.plan {
+  border-top: 8px solid rgb(64, 102, 255);
+  border-radius: 8px;
+  background-color: rgb(64, 102, 255);
+  width: calc(90% / 3);
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+  text-align: center;
+  padding-top: 24px;
+  align-items: center;
+}
+.personal__plan {
+  border-top: 8px solid aqua;
+  background-color: white;
+}
+.business__plan {
+  color: white;
+}
+.enterprise__plan {
+  background-color: white;
+  border-top: 8px solid red;
+}
+.pricing__btn {
+  width: 180px;
+  height: 52px;
+  margin-bottom: 24px;
+  border-radius: 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: purple;
+  border: none;
+}
+.personal__btn {
+  color: white;
+  background-color: aqua;
+}
+.enterprise__btn {
+  background-color: red;
+  color: white;
+}
+.plan__title {
+  font-size: 24px;
+}
+
+/* TESTIMONIALS */
+
+.testimonials__container {
+  display: flex;
+}
+.testimonial__pic {
+  width: 50%;
+  margin: 48px;
+  display: flex;
+}
+.testimonial__info--container {
+  width: 50%;
+  margin: 48px;
+  display: flex;
+  flex-direction: column;
+}
+.testimonial__person--container {
+  display: flex;
+  align-items: center;
+}
+.charlotte__img {
+  height: 100px;
+  border-radius: 80px;
+}
+.testimonial__person--name {
+  margin-top: 12px;
+  margin-left: 24px;
+}
+.charlotte__hale {
+  font-size: 24px;
+  margin-bottom: -12px;
+}
+.testimonial__arrows {
+  display: flex;
+  color: rgb(87, 0, 128);
+}
+.fa-arrow-left {
+  margin-left: 120px;
+}
+.fa-arrow-right {
+  margin-left: 48px;
+}
+.user__experience {
+  margin-top: 24px;
+  font-size: 24px;
 }
