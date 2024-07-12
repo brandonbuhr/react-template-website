@@ -583,12 +583,6 @@ FOOTER
   display: flex;
 }
 
-
-
-
-
-
-
 /* SMALL SCREENS */
 
 @media (max-width: 1000px) {
@@ -601,10 +595,10 @@ FOOTER
   .header__container {
     display: flex;
     flex-direction: column;
-   align-items: center;
+    align-items: center;
   }
   .service {
-    width: calc(100%/2);
+    width: calc(100% / 2);
   }
   .professionals__container {
     display: flex;
@@ -694,5 +688,24 @@ FOOTER
   .principles__description--title {
     display: flex;
     justify-content: center;
+  }
+  .testimonial__info--container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .testimonial__person--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .plan {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  .plans {
+    margin-top: 96px;
   }
 }
