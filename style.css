@@ -402,3 +402,34 @@ p {
   margin-top: 24px;
   font-size: 24px;
 }
+
+/* FAQS */
+
+.faq__title--section {
+  text-align: center;
+}
+.faq__para {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.faq__list {
+  display: flex;
+  flex-direction: column;
+}
+.faq__list--container {
+  display: flex;
+  justify-content: center;
+}
+.faq__list--btn {
+  width: 861px;
+  padding: 36px;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+.faq__list--text {
+  font-size: 24px;
+}
+.angle__down {
+  margin-left: auto;
+}
