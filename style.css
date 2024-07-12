@@ -433,3 +433,49 @@ p {
 .angle__down {
   margin-left: auto;
 }
+
+
+
+/* PURPLE BOX */
+
+
+.purple__box--container {
+  background-color: rgb(87, 0, 128);
+  border-radius: 8px;
+  display: flex;
+  width: 100%;
+  height: 24vh;
+}
+.purple__box--items {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.purple__box--description {
+  color: white;
+  width: 50%;
+  margin-left: 5%;
+}
+.purple__btn--container {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.purple__box--btn {
+  border-radius: 60px;
+  width: 180px;
+  padding: 24px;
+margin: 0 24px;
+color: white;
+font-size: 20px;
+font-weight: bold;
+}
+.started__btn {
+  background-color: red;
+}
+.contact__btn {
+  background-color: rgb(87, 0, 128);
+  border: 1px solid white;
+}
