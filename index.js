@@ -21,3 +21,11 @@ function SwapDivsWithClick(div1,div2)
       d2.style.display = "none";
    }
 }
+
+function openFaq() {
+    document.body.classList += " faq--open"
+    }
+    function closeFaq() {
+    document.body.classList.remove('faq--open')
+    }
+
