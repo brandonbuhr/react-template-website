@@ -39,6 +39,9 @@ ul {
 li {
   list-style-type: none;
 }
+button {
+  cursor: pointer;
+}
 .nav__link {
   margin-left: 16px;
   text-decoration: none;
@@ -188,6 +191,7 @@ p {
   color: white;
   font-weight: bold;
   text-align: center;
+  cursor: not-allowed;
 }
 .trusted__customers--title {
   font-size: 16px;
@@ -392,6 +396,7 @@ p {
   font-weight: bold;
   color: purple;
   border: none;
+  cursor: not-allowed;
 }
 .personal__btn {
   color: white;
@@ -477,35 +482,29 @@ p {
 .faq__list {
   display: flex;
   flex-direction: column;
+  align-items: start;
 }
 .faq__list--container {
-  display: flex;
-  justify-content: center;
+display: flex;
 }
 .faq__list--btn {
-  width: 861px;
+  width: 100%;
   padding: 36px;
-  display: flex;
-  align-items: center;
+  border: none;
+ display: flex;
 }
 .faq__list--text {
   font-size: 24px;
 }
-.angle__down {
-  margin-left: auto;
-}
+
 .faq__drop--text {
   font-size: 20px;
   margin: 0 36px;
 }
 .faq__hidden--para {
-  visibility: hidden;
-  opacity: 0;
+display: none;
 }
-.faq--open .faq__hidden--para {
-  visibility: visible;
-  opacity: 1;
-}
+
 /* PURPLE BOX */
 
 .purple__box--container {
@@ -543,10 +542,12 @@ p {
 }
 .started__btn {
   background-color: red;
+  cursor: not-allowed;
 }
 .contact__btn {
   background-color: rgb(87, 0, 128);
   border: 1px solid white;
+  cursor: not-allowed;
 }
 
 /*
@@ -606,7 +607,7 @@ FOOTER
   display: flex;
 }
 
-/* SMALL SCREENS */
+/* MEDIUM SCREENS */
 
 @media (max-width: 1000px) {
   .nav__links {
@@ -731,10 +732,10 @@ FOOTER
   .plans {
     margin-top: 96px;
   }
-  .faq__list--btn {
-    width: 100%;
-  }
   .angle__down {
     display: none;
+  }
+  .faq__list--text {
+    text-align: start;
   }
 }

@@ -22,10 +22,11 @@ function SwapDivsWithClick(div1,div2)
    }
 }
 
-function openFaq() {
-    document.body.classList += " faq--open"
-    }
-    function closeFaq() {
-    document.body.classList.remove('faq--open')
-    }
-
+function toggleFaq(button) {
+   const hiddenPara = button.nextElementSibling;
+   if (hiddenPara.style.display === "none" || hiddenPara.style.display === "") {
+     hiddenPara.style.display = "block";
+   } else {
+     hiddenPara.style.display = "none";
+   }
+ }
