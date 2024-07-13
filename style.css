@@ -441,11 +441,9 @@ p {
   display: flex;
   color: rgb(87, 0, 128);
 }
-.fa-arrow-left {
-  margin-left: 120px;
-}
-.fa-arrow-right {
-  margin-left: 48px;
+.fa-left-right{
+  margin-left: 96px;
+  font-size: 32px;
 }
 .user__experience {
   margin-top: 24px;
