@@ -490,13 +490,13 @@ p {
   align-items: start;
 }
 .faq__list--container {
-display: flex;
+  display: flex;
 }
 .faq__list--btn {
   width: 100%;
   padding: 36px;
   border: none;
- display: flex;
+  display: flex;
 }
 .faq__list--text {
   font-size: 24px;
@@ -509,7 +509,6 @@ display: flex;
   font-size: 20px;
   padding: 24px 0;
 }
-
 
 /* PURPLE BOX */
 
@@ -614,11 +613,13 @@ FOOTER
 .footer__social {
   display: flex;
 }
-
+.copyright__footer {
+  font-size: 16px;
+}
 /* MEDIUM SCREENS */
 
 @media (max-width: 1000px) {
-  .nav__container{
+  .nav__container {
     margin-left: 16px;
     margin-right: 16px;
   }
@@ -756,13 +757,17 @@ FOOTER
     margin-left: 48px;
     margin-right: 48px;
   }
-.purple__box--btn{
-  font-size: 16px;
-}
-.purple__box--description{
-  font-size: 24px;
-}
-.contact__btn{
-  margin-left: 4px;
-}
+  .purple__box--btn {
+    font-size: 16px;
+  }
+  .purple__box--description {
+    font-size: 24px;
+  }
+  .contact__btn {
+    margin-left: 4px;
+  }
+  .footer__info {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 }
