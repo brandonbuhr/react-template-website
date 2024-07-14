@@ -377,6 +377,7 @@ p {
   align-items: center;
 }
 .personal__plan {
+  border: 1px solid rgb(203, 196, 196);
   border-top: 8px solid aqua;
   background-color: white;
 }
@@ -384,6 +385,7 @@ p {
   color: white;
 }
 .enterprise__plan {
+  border: 1px solid rgb(203, 196, 196);
   background-color: white;
   border-top: 8px solid red;
 }
@@ -573,6 +575,7 @@ FOOTER
 .links__container {
   display: flex;
   justify-content: space-around;
+  padding-top: 24px;
 }
 .link {
   padding-top: 16px;
@@ -600,6 +603,7 @@ FOOTER
 }
 .footer__text {
   color: white;
+  font-size: 20px;
 }
 .footer__social--btn {
   width: 40px;
@@ -614,6 +618,10 @@ FOOTER
 /* MEDIUM SCREENS */
 
 @media (max-width: 1000px) {
+  .nav__container{
+    margin-left: 16px;
+    margin-right: 16px;
+  }
   .nav__links {
     display: none;
   }
@@ -624,6 +632,8 @@ FOOTER
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 16px;
+    margin-right: 16px;
   }
   .service {
     width: calc(100% / 2);
@@ -633,7 +643,8 @@ FOOTER
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 96px;
+    margin-bottom: 40%;
+    margin-top: 30%;
   }
   .started__container {
     display: flex;
@@ -648,6 +659,7 @@ FOOTER
     justify-content: center;
     align-items: center;
     margin-top: 40vh;
+    margin-bottom: 40%;
   }
   .plans {
     display: flex;
@@ -691,6 +703,7 @@ FOOTER
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 80px;
   }
   .principles__container {
     width: 100%;
@@ -743,4 +756,13 @@ FOOTER
     margin-left: 48px;
     margin-right: 48px;
   }
+.purple__box--btn{
+  font-size: 16px;
+}
+.purple__box--description{
+  font-size: 24px;
+}
+.contact__btn{
+  margin-left: 4px;
+}
 }
