@@ -22,11 +22,3 @@ function SwapDivsWithClick(div1,div2)
    }
 }
 
-function toggleFaq(button) {
-   const hiddenPara = button.nextElementSibling;
-   if (hiddenPara.style.display === "none" || hiddenPara.style.display === "") {
-     hiddenPara.style.display = "block";
-   } else {
-     hiddenPara.style.display = "none";
-   }
- }

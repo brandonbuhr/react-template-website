@@ -215,7 +215,7 @@ p {
   font-size: 20px;
 }
 .container {
-  padding: 80px 0;
+  margin-top: 96px;
 }
 .row {
   width: 100%;
@@ -498,15 +498,16 @@ display: flex;
 }
 .faq__list--text {
   font-size: 24px;
+  display: flex;
+  align-items: center;
+  padding-top: 16px;
 }
 
 .faq__drop--text {
   font-size: 20px;
-  margin: 0 36px;
+  padding: 24px 0;
 }
-.faq__hidden--para {
-display: none;
-}
+
 
 /* PURPLE BOX */
 
@@ -735,10 +736,11 @@ FOOTER
   .plans {
     margin-top: 96px;
   }
-  .angle__down {
-    display: none;
-  }
   .faq__list--text {
     text-align: start;
+  }
+  .container {
+    margin-left: 48px;
+    margin-right: 48px;
   }
 }
