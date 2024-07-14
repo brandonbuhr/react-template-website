@@ -326,7 +326,8 @@ p {
 
 .principles__container {
   display: flex;
-  height: 50vh;
+margin-top: 20%;
+margin-bottom: 20%;
 }
 .principles__description--container {
   width: 50%;
