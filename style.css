@@ -160,7 +160,7 @@ p {
 }
 .header__img--wrapper {
   width: 60%;
-margin-left: 8px;
+  margin-left: 8px;
 }
 .header__search--wrapper {
   display: flex;
@@ -196,7 +196,6 @@ margin-left: 8px;
   font-weight: bold;
   text-align: center;
   cursor: not-allowed;
-
 }
 .trusted__customers--title {
   font-size: 16px;
@@ -235,7 +234,7 @@ margin-left: 8px;
 .service {
   display: flex;
   width: calc(100% / 3);
-padding: 12px;
+  padding: 12px;
 }
 .service__description {
   display: flex;
@@ -243,9 +242,7 @@ padding: 12px;
   margin: 8px 0 0 16px;
 }
 .service__icon {
-
   padding-bottom: 96px;
-
 }
 .service__title {
   font-size: 24px;
@@ -624,7 +621,7 @@ FOOTER
 }
 /* MEDIUM SCREENS */
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .nav__container {
     margin-left: 16px;
     margin-right: 16px;
