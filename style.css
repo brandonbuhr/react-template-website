@@ -147,7 +147,7 @@ p {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  padding-top: 96px;
+  padding: 96px;
 }
 .header__description {
   display: flex;
@@ -215,7 +215,8 @@ p {
   font-size: 20px;
 }
 .container {
-  margin-top: 96px;
+  margin: 48px;
+  padding: 48px;
 }
 .row {
   width: 100%;
@@ -229,7 +230,7 @@ p {
 .service {
   display: flex;
   width: calc(100% / 3);
-  padding: 40px;
+padding: 12px;
 }
 .service__description {
   display: flex;
@@ -237,9 +238,9 @@ p {
   margin: 8px 0 0 16px;
 }
 .service__icon {
-  width: 30%;
+
   padding-bottom: 96px;
-  padding-right: 16px;
+
 }
 .service__title {
   font-size: 24px;
@@ -326,8 +327,8 @@ p {
 
 .principles__container {
   display: flex;
-margin-top: 20%;
-margin-bottom: 20%;
+  margin-top: 20%;
+  margin-bottom: 20%;
 }
 .principles__description--container {
   width: 50%;
@@ -539,8 +540,7 @@ margin-bottom: 20%;
 }
 .purple__box--btn {
   border-radius: 60px;
-  width: 180px;
-  padding: 24px;
+  padding: 8px;
   margin: 0 24px;
   color: white;
   font-size: 20px;
